@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: cheny39
+Build-Jdk: 11.0.4
+Implementation-Title: CARTRTS
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: CARTRTS
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/CARTRTS
+Created-By: Maven Integration for Eclipse
+
