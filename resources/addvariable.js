@@ -3,9 +3,7 @@ window.buffer = new Array();
 
 function send(value) {
 	window.buffer.push(value);
-	if(window.buffer.length == 200) {
-		sendReally();	
-	}
+	sendReally();	
 }
 
 function sendReally() {
@@ -29,3 +27,5 @@ function addVariable(name, value) {
 
 	return new Array(name, typeof(value), 'undefined');
 };
+
+

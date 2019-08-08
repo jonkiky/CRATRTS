@@ -57,7 +57,6 @@ public class JSModifyProxyPlugin {
 	 */
 	public JSModifyProxyPlugin(JSASTModifier modify) {
 		excludeFilenamePatterns = new ArrayList<String>();
-
 		modifier = modify;
 	}
 
